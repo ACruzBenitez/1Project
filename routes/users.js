@@ -8,4 +8,6 @@ router.get('/', userController.user);
 
 router.get('/angel', userController.angel);
 
+router.get('/contact', userController.contact);
+
 module.exports = router;

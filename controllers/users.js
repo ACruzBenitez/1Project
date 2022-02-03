@@ -11,3 +11,10 @@ exports.angel = function(req, res, next) {
         name: 'Angel Cruz' 
     });
   }
+  
+  exports.contact = function(req, res, next) {
+    res.render('useres', { 
+        title: 'Contact info', 
+        name: 'contact' 
+    });
+  }
