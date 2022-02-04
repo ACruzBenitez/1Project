@@ -1,7 +1,9 @@
+         <!--Reference to the header-->
 <% include partials/header.ejs %>
    <center><h1><%= title %></h1></center>
    <% if (title == "Contact info") { %>
-            
+         <!--Same as in the index format all of this info is written using col-md-2 by bootstrap to help 
+         with the organization of the page-->
       <br><br>
       <div  class="col-md-2"></div>
       <div style="background-color: rgb(226, 166, 55); border-radius: 10px;"  class="col-md-8">
@@ -39,6 +41,7 @@
       <center>
       <h2>Some other places you can find me:</h2>
       <p>
+         <!-- Functions of mailto and href to redirect the user to my social media and my email-->
       <div class="col-md-6">
          <a href="https://twitter.com/homoshomies"><h4>Twitter</h4></a>
          <a href="https://www.facebook.com/angel.cb.12"><h4>Facebook</h4></a>
@@ -60,4 +63,5 @@
       <p><br>
          <br></p>
       <% } %>
+         <!--Reference to the footer-->
       <% include partials/footer.ejs %>

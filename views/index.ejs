@@ -1,8 +1,10 @@
 
-   <% include partials/header.ejs %>
+         <!--Reference to the header-->
+  <% include partials/header.ejs %>
    <center><h1><%= title %></h1></center>
 
-
+<!--Here all of the contect from almost every page is laid, is clear the usage of the col-md-12 from bootstrap
+   it helps a lot of the text to look nice and to have a nice placement-->
 <% if (title == "Home") { %>
 <center><h1>Welcome to my Practice 1 in Node.js!</h1>
 <p>
@@ -168,5 +170,5 @@
             </center>
          <% } %>
 
-            
+         <!--Reference to the footer-->
    <% include partials/footer.ejs %>
